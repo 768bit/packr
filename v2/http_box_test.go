@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gobuffalo/packd"
+	"github.com/768bit/packd"
 	"github.com/gobuffalo/packr/v2/file/resolver"
 	"github.com/stretchr/testify/require"
 )

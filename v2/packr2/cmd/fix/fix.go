@@ -17,7 +17,7 @@ var modsOn = (strings.TrimSpace(envy.Get("GO111MODULE", "off")) == "on")
 var YesToAll bool
 
 var replace = map[string]string{
-	"github.com/gobuffalo/packr": "github.com/gobuffalo/packr/v2",
+	"github.com/768bit/packr": "github.com/gobuffalo/packr/v2",
 }
 
 var ic = ImportConverter{

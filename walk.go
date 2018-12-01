@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gobuffalo/packd"
+	"github.com/768bit/packd"
 	"github.com/pkg/errors"
 )
 

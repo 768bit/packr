@@ -13,8 +13,8 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/768bit/packd"
 	"github.com/gobuffalo/envy"
-	"github.com/gobuffalo/packd"
 	"github.com/gobuffalo/packr/v2/file"
 	"github.com/gobuffalo/packr/v2/file/resolver"
 	"github.com/gobuffalo/packr/v2/plog"

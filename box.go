@@ -11,7 +11,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/gobuffalo/packd"
+	"github.com/768bit/packd"
 	"github.com/markbates/oncer"
 	"github.com/pkg/errors"
 )

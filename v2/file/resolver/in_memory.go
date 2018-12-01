@@ -3,7 +3,7 @@ package resolver
 import (
 	"io/ioutil"
 
-	"github.com/gobuffalo/packd"
+	"github.com/768bit/packd"
 	"github.com/gobuffalo/packr/v2/file"
 	"github.com/gobuffalo/packr/v2/plog"
 	"github.com/pkg/errors"

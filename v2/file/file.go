@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/gobuffalo/packd"
+	"github.com/768bit/packd"
 )
 
 // File represents a virtual, or physical, backing of
