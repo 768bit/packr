@@ -4,8 +4,8 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/768bit/packr/v2/jam/parser"
 	"github.com/gobuffalo/genny/gentest"
-	"github.com/gobuffalo/packr/v2/jam/parser"
 	"github.com/markbates/oncer"
 	"github.com/stretchr/testify/require"
 )

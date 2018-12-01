@@ -30,7 +30,7 @@ func Test_Visitor(t *testing.T) {
 const example = `package example
 
 import (
-	"github.com/gobuffalo/packr/v2"
+	"github.com/768bit/packr/v2"
 )
 
 var a = packr.NewBox("./foo")

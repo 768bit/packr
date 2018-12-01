@@ -1,6 +1,6 @@
 package q
 
-import "github.com/gobuffalo/packr/v2"
+import "github.com/768bit/packr/v2"
 
 func init() {
 	packr.New("tom", "petty")

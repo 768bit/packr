@@ -5,10 +5,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/768bit/packr/v2"
+	"github.com/768bit/packr/v2/jam/parser"
 	"github.com/gobuffalo/genny/gentest"
 	"github.com/gobuffalo/genny/movinglater/gotools/gomods"
-	"github.com/gobuffalo/packr/v2"
-	"github.com/gobuffalo/packr/v2/jam/parser"
 	"github.com/markbates/oncer"
 	"github.com/stretchr/testify/require"
 )
@@ -44,7 +44,7 @@ func Test_Disk_Generator(t *testing.T) {
 
 		f := res.Files[0]
 		r.Equal("a-packr.go", filepath.Base(f.Name()))
-		r.Contains(f.String(), `import _ "github.com/gobuffalo/packr/v2/jam/packrd"`)
+		r.Contains(f.String(), `import _ "github.com/768bit/packr/v2/jam/packrd"`)
 		return nil
 	})
 }

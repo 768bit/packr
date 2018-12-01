@@ -85,7 +85,7 @@ package main
 import (
   "fmt"
 
-  "github.com/gobuffalo/packr/v2"
+  "github.com/768bit/packr/v2"
 )
 
 func main() {
@@ -126,7 +126,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/gobuffalo/packr/v2"
+	"github.com/768bit/packr/v2"
 )
 
 func main() {

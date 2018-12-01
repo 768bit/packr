@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/768bit/packr/v2/plog"
 	"github.com/gobuffalo/genny"
-	"github.com/gobuffalo/packr/v2/plog"
 	"github.com/pkg/errors"
 )
 

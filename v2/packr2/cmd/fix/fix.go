@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
+	"github.com/768bit/packr/v2/jam/store"
 	"github.com/gobuffalo/envy"
-	"github.com/gobuffalo/packr/v2/jam/store"
 	"github.com/pkg/errors"
 )
 
@@ -17,7 +17,7 @@ var modsOn = (strings.TrimSpace(envy.Get("GO111MODULE", "off")) == "on")
 var YesToAll bool
 
 var replace = map[string]string{
-	"github.com/768bit/packr": "github.com/gobuffalo/packr/v2",
+	"github.com/768bit/packr": "github.com/768bit/packr/v2",
 }
 
 var ic = ImportConverter{

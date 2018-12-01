@@ -8,9 +8,9 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/gobuffalo/packr/v2/jam/parser"
-	"github.com/gobuffalo/packr/v2/jam/store"
-	"github.com/gobuffalo/packr/v2/plog"
+	"github.com/768bit/packr/v2/jam/parser"
+	"github.com/768bit/packr/v2/jam/store"
+	"github.com/768bit/packr/v2/plog"
 	"github.com/pkg/errors"
 )
 

@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gobuffalo/packr/v2/plog"
+	"github.com/768bit/packr/v2/plog"
 	"github.com/pkg/errors"
 )
 

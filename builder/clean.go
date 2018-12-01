@@ -4,8 +4,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gobuffalo/packr/v2/jam/parser"
-	"github.com/gobuffalo/packr/v2/jam/store"
+	"github.com/768bit/packr/v2/jam/parser"
+	"github.com/768bit/packr/v2/jam/store"
 	"github.com/pkg/errors"
 )
 

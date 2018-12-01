@@ -5,9 +5,9 @@ import (
 	"strings"
 
 	"github.com/768bit/packd"
-	"github.com/gobuffalo/packr/v2/file"
-	"github.com/gobuffalo/packr/v2/file/resolver"
-	"github.com/gobuffalo/packr/v2/plog"
+	"github.com/768bit/packr/v2/file"
+	"github.com/768bit/packr/v2/file/resolver"
+	"github.com/768bit/packr/v2/plog"
 	"github.com/pkg/errors"
 )
 

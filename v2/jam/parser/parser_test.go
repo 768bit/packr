@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gobuffalo/packr/v2/jam/parser"
-	"github.com/gobuffalo/packr/v2/jam/store"
+	"github.com/768bit/packr/v2/jam/parser"
+	"github.com/768bit/packr/v2/jam/store"
 	"github.com/markbates/oncer"
 	"github.com/stretchr/testify/require"
 )
@@ -55,7 +55,7 @@ func Test_NewFrom_Roots_Disk(t *testing.T) {
 
 const basicGoTmpl = `package %s
 
-import "github.com/gobuffalo/packr/v2"
+import "github.com/768bit/packr/v2"
 
 func init() {
 	packr.New("elvis", "./presley")

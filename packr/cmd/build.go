@@ -6,7 +6,7 @@ import (
 	"os/exec"
 
 	"github.com/768bit/packr"
-	"github.com/gobuffalo/packr/builder"
+	"github.com/768bit/packr/builder"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

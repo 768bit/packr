@@ -3,9 +3,9 @@ package cmd
 import (
 	"os"
 
+	"github.com/768bit/packr/v2/plog"
 	"github.com/gobuffalo/genny"
 	"github.com/gobuffalo/logger"
-	"github.com/gobuffalo/packr/v2/plog"
 	"github.com/spf13/cobra"
 )
 

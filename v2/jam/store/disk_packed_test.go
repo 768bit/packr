@@ -1,8 +1,8 @@
 package store
 
 import (
-	"github.com/gobuffalo/packr/v2"
-	"github.com/gobuffalo/packr/v2/file/resolver"
+	"github.com/768bit/packr/v2"
+	"github.com/768bit/packr/v2/file/resolver"
 )
 
 var _ = func() error {

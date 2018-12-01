@@ -1,9 +1,9 @@
 package packr
 
 import (
-	"github.com/gobuffalo/packr/v2/file/resolver"
-	"github.com/gobuffalo/packr/v2/jam/parser"
-	"github.com/gobuffalo/packr/v2/plog"
+	"github.com/768bit/packr/v2/file/resolver"
+	"github.com/768bit/packr/v2/jam/parser"
+	"github.com/768bit/packr/v2/plog"
 	"github.com/markbates/safe"
 	"github.com/pkg/errors"
 )

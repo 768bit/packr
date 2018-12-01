@@ -3,7 +3,7 @@ package cmd
 import (
 	"os"
 
-	"github.com/gobuffalo/packr/v2/jam/store"
+	"github.com/768bit/packr/v2/jam/store"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
 )

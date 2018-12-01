@@ -14,10 +14,10 @@ import (
 	"sync"
 
 	"github.com/768bit/packd"
+	"github.com/768bit/packr/v2/file"
+	"github.com/768bit/packr/v2/file/resolver"
+	"github.com/768bit/packr/v2/plog"
 	"github.com/gobuffalo/envy"
-	"github.com/gobuffalo/packr/v2/file"
-	"github.com/gobuffalo/packr/v2/file/resolver"
-	"github.com/gobuffalo/packr/v2/plog"
 	"github.com/markbates/oncer"
 	"github.com/pkg/errors"
 )

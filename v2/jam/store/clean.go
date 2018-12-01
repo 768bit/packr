@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gobuffalo/packr/v2/jam/parser"
+	"github.com/768bit/packr/v2/jam/parser"
 	"github.com/pkg/errors"
 
 	"github.com/karrick/godirwalk"

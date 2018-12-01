@@ -11,10 +11,10 @@ import (
 
 	"github.com/pkg/errors"
 
+	"github.com/768bit/packr/v2/jam/parser"
+	"github.com/768bit/packr/v2/plog"
 	"github.com/gobuffalo/genny"
 	"github.com/gobuffalo/genny/movinglater/gotools"
-	"github.com/gobuffalo/packr/v2/jam/parser"
-	"github.com/gobuffalo/packr/v2/plog"
 )
 
 var _ Store = &Legacy{}
