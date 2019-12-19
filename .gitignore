@@ -1,3 +1,4 @@
+.idea
 *.log
 ./packr2
 .DS_Store
